@@ -3,6 +3,7 @@ header{
     background-color:Orange;
     display: flex;
     align-items: center;
+    margin: auto;
 }
 header *{
     display: inline;
@@ -40,12 +41,14 @@ main {
     margin: auto;
     background: white;
     width: 900px;
+
 }
 h1{
    text-align: center;
 }
 .InLineBlock{
     display: inline-block;
+
 }
 section{
     margin: 15px 30px;
@@ -67,4 +70,25 @@ th {
 /* границы ячеек тела таблицы */
 td {
     border: 2px solid black;
+}
+.photo{
+    border: 3px solid orange;
+
+}
+ul{
+    list-style-type: none;
+}
+ul li::before{
+    color: orange;
+    content: "▪";
+    padding-right: 10px;
+}
+footer{
+    background-color:Orange;
+    display: flex;
+    margin: auto;
+
+}
+#report{
+    
 }
