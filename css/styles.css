@@ -1,0 +1,42 @@
+
+header{
+    background-color:Orange;
+    display: flex;
+    align-items: center;
+}
+header *{
+    display: inline;
+    align-items: center;
+
+}
+.navigation ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+.navigation li{
+
+    margin: 10px;
+
+}
+.navigation li a{
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+}
+.active{
+    text-decoration-color: orange;
+    background-color: #000000;
+}
+body{
+    background: black;
+}
+main {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background: white;
+    width: 900px;
+}
